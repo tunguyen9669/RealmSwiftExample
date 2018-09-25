@@ -1,0 +1,18 @@
+included:
+  - Timekeeper
+
+excluded:
+  - Pods
+
+disabled_rules:
+ - trailing_whitespace
+ - identifier_name
+ - force_cast
+
+line_length:
+  - 200 # warning
+  - 300 # error
+
+file_length:
+  - 500 # warning
+  - 1500 # error
